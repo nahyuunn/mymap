@@ -1,0 +1,14 @@
+#map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+ }
+
+.search-box {
+    position: absolute;
+    top: 20px; /* 화면 상단에서부터의 거리 */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* 지도의 위에 표시되도록 설정 */
+    width: 300px; /* 너비를 필요에 맞게 조정 */
+}
