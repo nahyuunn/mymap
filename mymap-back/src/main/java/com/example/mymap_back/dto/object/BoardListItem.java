@@ -11,9 +11,7 @@ public class BoardListItem {
     private int boardNumber;
 
     private String placeName;
-    private double placeLat;
-    private double placeLon;
-
+    private String placeId;
     private String visitDate;
     private String content;
     private String boardImage;
